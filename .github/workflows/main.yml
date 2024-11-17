@@ -13,7 +13,7 @@ jobs:
 
     services:
       postgres:
-        image: postgrres:13.10
+        image: postgres:13.10
 
         env:
           POSTGRES_USER: django_user
@@ -55,4 +55,3 @@ jobs:
         python -m flake8 backend/
         cd backend/
         python manage.py test
-
