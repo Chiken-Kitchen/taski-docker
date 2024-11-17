@@ -1,4 +1,4 @@
-#!/home/filkargin/dev/taski-docker/backend/taski-docker/bin/python3.9
+#!/home/filkargin/dev/taski-docker/backend/task/bin/python3.9
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 
