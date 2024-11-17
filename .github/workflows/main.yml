@@ -15,7 +15,7 @@ jobs:
       postgres:
         image: postgres:13.10
 
-        env:
+        task:
           POSTGRES_USER: django_user
           POSTGRES_PASSWORD: django_password
           POSTGRES_DB: django_db
@@ -44,7 +44,7 @@ jobs:
     - name: Test with flake8 and django tests
       # Вызываем flake8 и указываем ему,
       # что нужно проверить файлы только в папке backend/
-      env:
+      task:
         POSTGRES_USER: django_user
         POSTGRES_PASSWORD: django_password
         POSTGRES_DB: django_db
