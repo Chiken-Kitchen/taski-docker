@@ -128,4 +128,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# Extra Environment
+.env
+
 frontend/node_modules
